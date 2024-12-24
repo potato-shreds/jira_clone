@@ -23,6 +23,7 @@ const establishDatabaseConnection = async (): Promise<void> => {
 const initializeExpress = (): void => {
   const app = express();
 
+  // 解决跨域
   app.use(cors());
   app.use(express.json());
   app.use(express.urlencoded());
