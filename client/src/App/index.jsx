@@ -12,6 +12,7 @@ import './fontStyles.css';
 
 const App = () => (
   <Fragment>
+    {/* 清除默认样式 */}
     <NormalizeStyles />
     <BaseStyles />
     <Toast />
